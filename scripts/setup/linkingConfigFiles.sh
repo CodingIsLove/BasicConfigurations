@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FILE_PATH="./../../dotFiles"
-HOME_CONFIG_FILES="/Documents/GitRepos/BasicConfigurations/dotFiles"
+HOME_CONFIG_FILES="Documents/GitRepos/BasicConfigurations/dotFiles"
 
 
 setupLinks(){
