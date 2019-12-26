@@ -7,8 +7,6 @@ declare opt_programs
 
 ## Functions
 install(){
-	echo $1
-	echo $(which $1)
 	if [[ -n $(which $1) ]]; then
 		echo $1 " is already in the program is in the path"
 	else
@@ -39,7 +37,6 @@ basic_setup(){
 }
 
 ## Main Script
-echo $PROGRAM_FILE_DIR
 basic_setup
 
 
