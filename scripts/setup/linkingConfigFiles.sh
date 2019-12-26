@@ -1,8 +1,6 @@
 #!/bin/bash
 
 HOME_DIR=$(dirname $(dirname $(dirname $(realpath $0))))/dotFiles
-HOME_CONFIG_FILES="/Documents/GitRepos/BasicConfigurations/dotFiles"
-
 
 setupLinks(){
 	for i in $HOME_DIR/.*; do
