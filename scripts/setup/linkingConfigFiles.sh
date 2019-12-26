@@ -1,11 +1,11 @@
 #!/bin/bash
 
-FILE_PATH="./../../dotFiles"
+HOME_DIR=$(dirname $(dirname $(dirname $(realpath $0))))/dotFiles
 HOME_CONFIG_FILES="/Documents/GitRepos/BasicConfigurations/dotFiles"
 
 
 setupLinks(){
-	for i in $FILE_PATH/.*; do
+	for i in $HOME_DIR/.*; do
 		if [[ -f $i ]] || [[ -d $i ]]; then
 			var=$(basename $i) 
 
@@ -28,5 +28,5 @@ setupLinks(){
 
 # Execute the code
 setupLinks
-echo "All config files are linked now"
+#echo "All config files are linked now"
 
