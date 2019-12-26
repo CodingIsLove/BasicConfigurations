@@ -17,7 +17,7 @@ setupLinks(){
 					rm -r ~/$var
 				fi
 			# Link the files
-			ln -s ~/$HOME_CONFIG_FILES/$var ~/$var
+			ln -s $HOME_DIR/$var ~/$var
 			fi
 		fi
 	done
