@@ -51,3 +51,6 @@ colorscheme iceberg
 " Fuzzy search
 set path+=**
 set wildmenu
+
+" Seting encoding
+set encoding=UTF-8
