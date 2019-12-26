@@ -1,7 +1,13 @@
 " Vim configuration file. Written by Christopher Germann
 
+" Configure pathogen
+execute pathogen#infect()
+
 " Turn on syntax highlighting
 syntax on
+
+" Filetype
+filetype plugin indent on
 
 " speed up scrolling in vim
 set ttyfast
@@ -28,4 +34,6 @@ set ignorecase
 set smartcase
 set showmatch
 
+" Colorscheme
+colorscheme iceberg
 
