@@ -6,7 +6,17 @@ execute pathogen#infect()
 " Turn on syntax highlighting
 syntax on
 
-" Filetype
+" Add mouse support
+set mouse=a
+
+
+" History safe last 50 entries
+set history=50
+
+" Display incomplete commmand in lower right corner
+set showcmd
+
+"Filetype
 filetype plugin indent on
 
 " speed up scrolling in vim
@@ -37,3 +47,10 @@ set showmatch
 " Colorscheme
 colorscheme iceberg
 
+
+" Fuzzy search
+set path+=**
+set wildmenu
+
+" Seting encoding
+set encoding=UTF-8
