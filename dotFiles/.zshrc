@@ -106,7 +106,11 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias configs="cd ~/Documents/GitRepos/BasicConfigurations"
 alias repos="cd ~/Documents/GitRepos"
+alias ll="ls -la"
 
+
+# Kill this fucking beep
+unsetopt BEEP
 
 
 
